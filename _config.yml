@@ -1,1 +1,9 @@
+title: "Aliza Khan"
+description: "Aliza's Personal Website"
 theme: minima
+markdown: kramdown
+
+collections:
+  content:
+    output: true
+    permalink: /:name/
