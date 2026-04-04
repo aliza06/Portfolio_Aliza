@@ -1,8 +1,14 @@
 ---
 layout: default
-title: "About Me"
+title: "Home"
 permalink: /
 ---
 
-# About Me
-Welcome to my portfolio site! This is where I share my education, projects, and interests.
+# Welcome
+
+![Landing Graphic](assets/images/landing.png)
+
+> "Whether obvious or subtle, visible or elusive, these symmetries are inherent and real."  
+> — Agnes Denes
+
+This is the landing page for my portfolio. Use the sidebar to explore more.
