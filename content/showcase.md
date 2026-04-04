@@ -1,1 +1,4 @@
-# Media & Design Showcase
+---
+layout: default
+title: "showcase"
+---
