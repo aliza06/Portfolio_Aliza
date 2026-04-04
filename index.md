@@ -2,6 +2,7 @@
 layout: default
 title: "Home"
 permalink: /
+class: landing
 ---
 
 ![Landing Graphic](assets/Images/cssbluegreenflowers.jpg)
