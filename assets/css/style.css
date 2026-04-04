@@ -14,3 +14,8 @@ body {
 .sidebar li .icon {
   margin-right: 8px;
 }
+body.landing {
+  background-image: url('/assets/images/flowers.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
