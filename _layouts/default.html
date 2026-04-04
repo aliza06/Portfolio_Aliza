@@ -1,1 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <div class="sidebar">
+    {% include sidebar.html %}
+  </div>
 
+  <div class="main-content">
+    {{ content }}
+  </div>
+</body>
+</html>
