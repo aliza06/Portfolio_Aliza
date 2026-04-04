@@ -1,1 +1,57 @@
+/* Base styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #E1F5FF; /* Light Cyan background */
+  color: #0F4B2D; /* Zucchini Green text */
+  margin: 0;
+  padding: 0;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  float: left;
+  background-color: #0064FA; /* Brandeis Blue */
+  color: white;
+  height: 100vh;
+  padding: 20px;
+}
+
+.sidebar a {
+  display: block;
+  color: #91BEFF; /* Jordy Blue links */
+  text-decoration: none;
+  margin: 8px 0;
+}
+
+.sidebar a:hover {
+  color: #5AA55A; /* Pastel Green hover */
+}
+
+/* Main content */
+.main-content {
+  margin-left: 240px;
+  padding: 20px;
+  background-color: #E1F5FF; /* Light Cyan */
+  min-height: 100vh;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #0064FA; /* Brandeis Blue headings */
+}
+
+/* Buttons (e.g. Resume download) */
+.button {
+  background-color: #5AA55A; /* Pastel Green */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #0F4B2D; /* Zucchini Green */
+}
 
