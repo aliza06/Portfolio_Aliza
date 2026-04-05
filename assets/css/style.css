@@ -1,3 +1,4 @@
+/* Global styles */
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -7,13 +8,14 @@ body {
 
 /* Landing page special background */
 body.landing {
-  background-image: url('/assets/images/flowers.png');
-  background-size: cover;
+  background-image: url('/assets/images/flowers.png'); /* replace with your image path */
+  background-size: contain;   /* keeps image at natural size */
   background-repeat: no-repeat;
-  color: white;
+  background-position: center top;
+  color: white; /* optional for contrast */
 }
 
-/* Sidebar */
+/* Sidebar styles */
 .sidebar {
   width: 220px;
   float: left;
@@ -23,6 +25,13 @@ body.landing {
   padding: 20px;
 }
 
+.sidebar .site-title a {
+  font-size: 1.8em;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+}
+
 .sidebar ul {
   list-style: none;
   padding: 0;
@@ -30,12 +39,13 @@ body.landing {
 
 .sidebar li {
   margin: 10px 0;
-  display: flex;
-  align-items: center;
 }
 
-.sidebar li .icon {
-  margin-right: 8px;
+/* Add dot or dash before each link */
+.sidebar li::before {
+  content: "• "; /* change to "-" if you prefer dashes */
+  color: #5AA55A; /* Pastel Green accent */
+  font-weight: bold;
 }
 
 .sidebar a {
@@ -47,12 +57,12 @@ body.landing {
   color: #5AA55A; /* Pastel Green hover */
 }
 
-/* Main content */
+/* Main content area */
 .main-content {
   margin-left: 240px;
   padding: 20px;
   min-height: 100vh;
-  background-color: #E1F5FF; /* Light Cyan */
+  background-color: #E1F5FF; /* Light Cyan background */
 }
 
 h1, h2, h3 {
