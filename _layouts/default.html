@@ -4,10 +4,12 @@
   <meta charset="UTF-8">
   <title>{{ page.title }} | {{ site.title }}</title>
   <meta name="description" content="{{ site.description }}">
-  <!-- Use relative_url so GitHub Pages finds the CSS even in subfolders -->
+  <!-- Correct way to link CSS on GitHub Pages -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="{{ page.class }}">
   <div class="sidebar">
     {% include sidebar.html %}
   </div>
