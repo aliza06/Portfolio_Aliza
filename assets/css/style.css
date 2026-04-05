@@ -1,13 +1,60 @@
-/* Default background for all pages */
 body {
-  background-color: #E1F5FF; /* Light Cyan */
   font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #E1F5FF; /* Light Cyan default */
 }
 
-/* Special background only for landing page */
+/* Landing page special background */
 body.landing {
   background-image: url('/assets/images/flowers.png');
   background-size: cover;
   background-repeat: no-repeat;
-  color: white; /* optional for contrast */
+  color: white;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  float: left;
+  background-color: #0064FA; /* Brandeis Blue */
+  color: white;
+  height: 100vh;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar li .icon {
+  margin-right: 8px;
+}
+
+.sidebar a {
+  color: #91BEFF; /* Jordy Blue links */
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  color: #5AA55A; /* Pastel Green hover */
+}
+
+/* Main content */
+.main-content {
+  margin-left: 240px;
+  padding: 20px;
+  min-height: 100vh;
+  background-color: #E1F5FF; /* Light Cyan */
+}
+
+h1, h2, h3 {
+  color: #0064FA; /* Brandeis Blue headings */
 }
