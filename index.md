@@ -5,6 +5,11 @@ permalink: /
 class: landing
 ---
 
-## Welcome
+<div class="landing-banner">
+  <img src="/assets/images/flowers.png" alt="Floral pattern" class="banner-image">
+</div>
 
-This is the landing page for my portfolio. Use the sidebar to explore more.
+<div class="landing-text">
+  <h1>Welcome</h1>
+  <p>This is the landing page for my portfolio. Use the sidebar to explore more.</p>
+</div>
