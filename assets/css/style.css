@@ -16,7 +16,7 @@ body.landing::before {
   display: block;
   width: 100%;
   height: 50vh; /* half the window height */
-  background-image: url('/assets/images/flowers.png'); /* replace with your image path */
+  background-image: url('assets/Images/cssbluegreenflowers.jpg'); /* replace with your image path */
   background-size: cover;   /* stretch across full width */
   background-repeat: no-repeat;
   background-position: center;
