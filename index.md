@@ -6,7 +6,7 @@ class: landing
 ---
 
 <div class="landing-banner">
-  <img src="/assets/images/flowers.png" alt="Floral pattern" class="banner-image">
+  <img src="assets/Images/cssbluegreenflowers.jpg" alt="Floral pattern" class="banner-image">
 </div>
 
 <div class="landing-text">
