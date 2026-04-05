@@ -6,13 +6,20 @@ body {
   background-color: #E1F5FF; /* Light Cyan default */
 }
 
-/* Landing page special background */
+/* Landing page banner background */
 body.landing {
+  background: none; /* remove global background */
+}
+
+body.landing::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 50vh; /* half the viewport height */
   background-image: url('/assets/images/flowers.png'); /* replace with your image path */
-  background-size: contain;   /* keeps image at natural size */
+  background-size: cover;   /* cover full width */
   background-repeat: no-repeat;
-  background-position: center top;
-  color: white; /* optional for contrast */
+  background-position: center;
 }
 
 /* Sidebar styles */
