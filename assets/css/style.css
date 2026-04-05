@@ -1,21 +1,13 @@
+/* Default background for all pages */
 body {
+  background-color: #E1F5FF; /* Light Cyan */
   font-family: 'Poppins', sans-serif;
 }
-.site-title a {
-  font-size: 1.8em;
-  font-weight: 600;
-  text-decoration: none;
-  color: white;
-}
-.sidebar li {
-  display: flex;
-  align-items: center;
-}
-.sidebar li .icon {
-  margin-right: 8px;
-}
+
+/* Special background only for landing page */
 body.landing {
   background-image: url('/assets/images/flowers.png');
   background-size: cover;
   background-repeat: no-repeat;
+  color: white; /* optional for contrast */
 }
